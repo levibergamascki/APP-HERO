@@ -19,7 +19,9 @@
 |/search/name   | GET           |
 
 ### Atributos/parâmetros solicitados por cada método: Nome ou ID
-### Retornam: {
+### Retornam: 
+```json
+{
   "response": "",
   "results-for": "",
   "results": [
@@ -71,3 +73,4 @@
         "url": ""
       }
     }
+```
