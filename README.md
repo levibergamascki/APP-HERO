@@ -4,7 +4,7 @@
 ### URL DE ACESSO A API: https://superheroapi.com/api/access-token/
 
 ### Método de autenticação: Token de acesso gerado ao logar no Facebook atráves do site da API. 
-### api é o endpoint, e os métodos:
+### 'api' é o endpoint, e os métodos:
 
 | Referência    | Método        |
 | ------------- | ------------- |
