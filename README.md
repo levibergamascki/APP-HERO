@@ -17,7 +17,7 @@
 |/id/image      | GET           |
 |/search/name   | GET           |
 
-### Na aplicação usaremos o **biography**, o **work*, e o **image**
+### Na aplicação usaremos o **biography**, o **work**, e o **image**
 
 ### Atributos/parâmetros solicitados por cada método: Nome ou ID
 ### Retornam: 
