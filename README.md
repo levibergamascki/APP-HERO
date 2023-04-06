@@ -17,3 +17,57 @@
 |/id/work       | GET           |
 |/id/image      | GET           |
 |/search/name   | GET           |
+
+### Atributos/parâmetros solicitados por cada método: Nome ou ID
+### Retornam: {
+  "response": "",
+  "results-for": "",
+  "results": [
+    {
+      "id": "",
+      "name": "B",
+      "powerstats": {
+        "intelligence": "",
+        "strength": "",
+        "speed": "",
+        "durability": "",
+        "power": "",
+        "combat": ""
+      },
+      "biography": {
+        "full-name": "",
+        "alter-egos": "",
+        "aliases": [
+          ""
+        ],
+        "place-of-birth": "",
+        "first-appearance": "",
+        "publisher": "",
+        "alignment": ""
+      },
+      "appearance": {
+        "gender": "",
+        "race": "",
+        "height": [
+          "",
+          ""
+        ],
+        "weight": [
+          "",
+          ""
+        ],
+        "eye-color": "",
+        "hair-color": ""
+      },
+      "work": {
+        "occupation": "",
+        "base": ""
+      },
+      "connections": {
+        "group-affiliation": "",
+        "relatives": ""
+      },
+      "image": {
+        "url": ""
+      }
+    }
