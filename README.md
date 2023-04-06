@@ -1,4 +1,4 @@
-# API-SuperHero
+# **API-SuperHero - Levi da Costa Bergamascki Martins e Polianna Albuquerque Lima** 
 
 ## URL DA API: https://superheroapi.com/index.html
 ### URL DE ACESSO A API: https://superheroapi.com/api/access-token/
