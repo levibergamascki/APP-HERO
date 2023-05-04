@@ -1,4 +1,5 @@
 O usuário entra no aplicativo e vê a tela inicial com um menu em carrossel que vai passando e mostrando as diferentes activities da aplicação, que seriam: 
+![Alt text](https://github.com/levibergamascki/API-HERO/blob/main/inicio.png?raw=true "Inicio")
 ## * Cartas
 Onde os usuários terão uma tela para pesquisar a carta de um determinado personagem pelo seu nome através de uma barra de pesquisa. O resultado dessa pesquisa seria exibido logo abaixo com a carta do herói, contendo informações como nome, altura, peso, poderes, todos dados fornecidos pela api.
 ## * Batalhas
