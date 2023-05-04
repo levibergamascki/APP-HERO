@@ -19,4 +19,4 @@ Na activity quiz, haverão perguntas sobre determinados heróis ou curiosidades 
               
 ## Diagrama de classes e do banco de dados
 
-![Alt text](https://github.com/levibergamascki/API-HERO/blob/main/diagramas.png?raw=true "Diagramas")
+![Alt text](https://github.com/levibergamascki/API-HERO/blob/main/diagramas.jpg?raw=true "Quiz")
