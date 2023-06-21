@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="15dp"
+    android:layout_marginBottom="10dp"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/heroName"
+    android:text="Nome"
+    android:textSize="16sp"
+    android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heroAppearance"
+        android:layout_below="@+id/heroName"
+        android:text="Primeira aparição"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heroPublisher"
+        android:layout_below="@+id/heroAppearance"
+        android:text="Publicadora"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heroGender"
+        android:layout_below="@+id/heroPublisher"
+        android:text="Gênero"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heroRace"
+        android:layout_below="@+id/heroGender"
+        android:text="Raça"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
