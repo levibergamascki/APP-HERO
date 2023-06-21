@@ -75,6 +75,10 @@
       }
     }
 ```
+
+## Link de reprodução: 
+https://youtu.be/orJL78zMMQ8
+
 ## Mapa de navegação
 
 O usuário entra no aplicativo e vê a tela inicial com um menu em carrossel que vai passando e mostrando as diferentes activities da aplicação, que seriam: 
