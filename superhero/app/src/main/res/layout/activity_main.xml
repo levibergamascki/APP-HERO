@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:text="Superhero Search"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        />
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_below="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:id="@+id/requestTag"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:hint="Busque um herói!"
+            android:padding="12dp"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_background"
+            android:elevation="8dp"
+            android:importantForAutofill="no"
+            />
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/search_hero"
+            android:onClick="searchHero"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/icon_search"
+            android:background="@drawable/button_background"
+            />
+
+        ></LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dataListView"
+        android:layout_below="@id/linear"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/errorMessage"
+        android:gravity="center"
+        android:text="Nenhum herói encontrado. Tente de novo"
+        android:visibility="invisible"/>
+    <ProgressBar
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:id="@+id/loadingBar"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
