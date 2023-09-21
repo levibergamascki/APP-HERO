@@ -29,6 +29,10 @@ public class HeroAdapter extends ArrayAdapter<Hero> {
             view = LayoutInflater.from(getContext()).inflate(R.layout.hero_item, parent, false);
         }
         TextView heroName = view.findViewById(R.id.heroName);
+<<<<<<< HEAD
+=======
+        TextView heroAppearence = view.findViewById(R.id.heroAppearance);
+>>>>>>> 3cea294cbee5353be170ccb5cc2ba6ff606f586b
         TextView heroPublisher = view.findViewById(R.id.heroPublisher);
         TextView heroGender = view.findViewById(R.id.heroGender);
         TextView heroRace = view.findViewById(R.id.heroRace);
@@ -36,6 +40,10 @@ public class HeroAdapter extends ArrayAdapter<Hero> {
         Hero currentHero = getItem(position);
 
         heroName.setText(currentHero.getName());
+<<<<<<< HEAD
+=======
+        heroAppearence.setText(currentHero.getAppearence());
+>>>>>>> 3cea294cbee5353be170ccb5cc2ba6ff606f586b
         heroPublisher.setText(currentHero.getPublisher());
         heroGender.setText(currentHero.getGender());
         heroRace.setText(currentHero.getRace());

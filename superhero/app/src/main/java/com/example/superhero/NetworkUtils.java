@@ -17,8 +17,12 @@ import java.util.List;
 import java.util.Scanner;
 
 public class NetworkUtils {
+<<<<<<< HEAD
     //private final static String HERO_BASE_URL = "https://superheroapi.com/api/2558109614336317/search";
     private final static String HERO_BASE_URL = "https://localhost:7095/api/Identity";
+=======
+    private final static String HERO_BASE_URL = "https://superheroapi.com/api/2558109614336317/search";
+>>>>>>> 3cea294cbee5353be170ccb5cc2ba6ff606f586b
     private static URL buildUrl(String queryString) {
         Uri buildUri = Uri.parse(HERO_BASE_URL + "/" + queryString);
     URL url = null;
@@ -55,15 +59,27 @@ public class NetworkUtils {
 
 
 
+<<<<<<< HEAD
                 String heroName = json.getString("Name");
                 String heroPublisher = json.getString("Publicadora");
                 String heroGender = json.getString("Genero");
                 String heroRace = json.getString("Race");
+=======
+                String heroName = json.getString("name");
+                String heroAppearence = json.getJSONObject("appearance").getString("first-appearance");
+                String heroPublisher = json.getString("publisher");
+                String heroGender = json.getString("gender");
+                String heroRace = json.getString("race");
+>>>>>>> 3cea294cbee5353be170ccb5cc2ba6ff606f586b
 
                 Log.v("currentHero", json.getString("name"));
                 Log.v("Data", "Number" + 1);
 
+<<<<<<< HEAD
                 Hero hero = new Hero(heroName, heroPublisher, heroGender, heroRace);
+=======
+                Hero hero = new Hero(heroName, heroAppearence, heroPublisher, heroGender, heroRace);
+>>>>>>> 3cea294cbee5353be170ccb5cc2ba6ff606f586b
                 heroList.add(hero);
 
         }catch(JSONException ex){
